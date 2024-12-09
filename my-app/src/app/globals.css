@@ -4,18 +4,36 @@
 
 :root {
   --background: #ffffff;
+  --background-rgb: 255, 255, 255;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
+    --background-rgb: 10, 10, 10;
     --foreground: #ededed;
   }
 }
 
-body {
+html {
+  @apply font-sans; 
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  @apply bg-transparent; 
+}
+
+button,
+a {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+button:hover,
+a:hover {
+  @apply scale-105;
 }
