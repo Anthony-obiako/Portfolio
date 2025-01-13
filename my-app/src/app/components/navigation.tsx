@@ -25,8 +25,7 @@ const Navigation = () => {
 
   return (
     <nav
-      className="flex md:justify-around justify-between items-center px-4 py-2 h-[17vh]"
-      style={{ backgroundColor: "var(--background)", color: "var(--foreground)" }}
+      className="flex md:justify-around justify-between items-center px-4 py-2 h-[15vh] bg-[var(--background)] text-[var(--foreground)]"
     >
       <div className="text-3xl hover:cursor-default ">Anthony Obiako</div>
 
@@ -82,7 +81,7 @@ const Navigation = () => {
       {/* Dropdown Menu for Small Screens */}
       {menuOpen && (
         <div
-          className="fixed top-0 left-0 w-full h-1/2 flex flex-col justify-center items-center gap-4"
+          className="fixed top-0 left-0 w-full h-1/2 flex flex-col justify-center items-center gap-4 z-50"
           style={{
             backgroundColor: "rgba(var(--background-rgb), 0.9)", // Semi-transparent
             color: "var(--foreground)",
