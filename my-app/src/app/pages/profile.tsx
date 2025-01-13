@@ -16,16 +16,16 @@ const Profile = () => {
             className="rounded-full border-2 border-black dark:border-white bg-white mb-4 w-40 saturate-150 h-60 object-cover mx-5"
           />
           <div className="">
-            <h1 className="text-2xl md:text-5xl font-semibold">
-              Hey there! I'm{" "}
+            <h1 className="text-2xl md:text-5xl font-semibold text-orange-200">
+              Hi there! I'm{" "}
               <span className="text-gradient">Anthony Obiako</span>
             </h1>
-            <p className="mt-4 md:text-4xl text-lg">
+            <p className="mt-4 md:text-4xl text-lg text-orange-50">
               I'm a passionate hardware and software engineer dedicated to
               creating products that are both high-performing and visually
               stunning.
             </p>
-            <p className="mt-2 text-lg md:text-3xl">
+            <p className="mt-2 text-lg md:text-3xl text-orange-50">
               Also a{" "}
               <span className="text-gradient">
                 Frontend Web Developer, Vehicle Enthusiast, Avid Reader, Music
