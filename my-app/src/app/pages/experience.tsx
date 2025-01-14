@@ -1,11 +1,107 @@
-import React from 'react'
+import React from "react";
 
 const Experience = () => {
   return (
-    <div>Experience.
-      this is the experience section
+    <div
+      id="experience"
+      className="w-full h-full min-h-[400px] sm:min-h-[600px] font-light border border-neutral-300 dark:border-neutral-900 shadow-custom dark:shadow-custom-dark rounded-2xl flex flex-col justify-center items-center bg-white dark:bg-black p-8"
+    >
+      <div className="justify-items-center mb-4 md:mb-16">
+        <p className="text-lg md:text-xl lg:text-2xl text-teal-50">Explore</p>
+        <h1 className="text-3xl md:text-4xl lg:text-6xl text-teal-200 md:mt-4">
+          My Experience
+        </h1>
+      </div>
+      <div className="flex flex-col gap-4 md:gap-10">
+        <div className="p-8 rounded-xl shadow-inner shadow-teal-500 max-w-[1100px] h-full sm:min-w-[300px text-sm md:text-lg hover:animate-pulse cursor-default md:flex ">
+          <p className="text-lg md:font-semibold md:mr-4 md:mt-3 md:min-w-[120px]">
+            DEC 2024
+          </p>
+          <div>
+            <h1 className="text-xl md:text-4xl font-extrabold border-b-2 md:border-b-4 border-white mb-3 md:mb-4 py-3">
+              IMMUREG
+            </h1>
+            <p className="font-thin text-base md:text-xl">
+              I've collaborated closely with the frontend team to deliver
+              refined user interfaces, resolve UI bugs, and elevate the overall
+              user experience. Working alongside the lead senior developer, I
+              contributed to building pixel-perfect, high-performance UI
+              solutions that blend creativity with technical excellence.
+            </p>
+            <div className="flex flex-wrap text-nowrap gap-2 mt-3">
+              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
+                Typescript
+              </div>
+              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
+                Next-JS
+              </div>
+              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
+                React-JS
+              </div>
+              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
+                Material UI
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="p-8 rounded-xl shadow-inner shadow-teal-500 max-w-[1100px] h-full sm:min-w-[300px text-sm md:text-lg hover:animate-pulse cursor-default md:flex ">
+          <p className="text-lg md:font-semibold md:mr-4 md:mt-3 md:min-w-[120px]">
+            SEP 2024 - DEC 2024
+          </p>
+          <div>
+            <h1 className="text-xl md:text-4xl font-extrabold border-b-2 md:border-b-4 border-white mb-3 md:mb-4 py-3">
+              VETEK
+            </h1>
+            <p className="font-thin text-base md:text-xl">
+              As a frontend development intern, I actively contributed to
+              delivering visually appealing and high-performing UIs that met
+              customer satisfaction. I took ownership of integrating a seamless
+              self-service modal, ensuring both functionality and user
+              experience were top-notch.
+            </p>
+            <div className="flex flex-wrap text-nowrap gap-2 mt-3">
+              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
+                React-JS
+              </div>
+              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
+                Javascript
+              </div>
+              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
+                Git Version Control
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="p-8 rounded-xl shadow-inner shadow-teal-500 max-w-[1100px] h-full sm:min-w-[300px text-sm md:text-lg hover:animate-pulse cursor-default md:flex ">
+          <p className="text-lg md:font-semibold md:mr-4 md:mt-3 md:min-w-[120px]">
+            JUN 2023 - AUG 2024
+          </p>
+          <div>
+            <h1 className="text-xl md:text-4xl font-extrabold border-b-2 md:border-b-4 border-white mb-3 md:mb-4 py-3">
+              VICLYD INTERNET SERVICE LTD
+            </h1>
+            <p className="font-thin text-base md:text-xl">
+              I worked in the technology department alongside the senior
+              engineer, ensuring the delivery of seamless, reliable internet
+              services to both customers and corporate offices, prioritizing
+              efficiency and exceptional service quality
+            </p>
+            <div className="flex flex-wrap text-nowrap gap-2 mt-3">
+              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
+                Internet Service
+              </div>
+              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
+                Networking
+              </div>
+              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
+                Customer Relations
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

@@ -15,10 +15,10 @@ const Profile = () => {
             alt="Anthony Obiako"
             className="rounded-full border-2 border-black dark:border-white bg-white mb-4 w-40 saturate-150 h-60 object-cover mx-5"
           />
-          <div className="">
-            <h1 className="text-2xl md:text-5xl font-semibold text-orange-200">
+          <div className="cursor-default">
+            <h1 className="text-lg md:text-4xl text-orange-200">
               Hi there! I'm{" "}
-              <span className="text-gradient">Anthony Obiako</span>
+              <span className="text-gradient font-semibold text-2xl md:text-5xl">Anthony Obiako</span>
             </h1>
             <p className="mt-4 md:text-4xl text-lg text-orange-50">
               I'm a passionate hardware and software engineer dedicated to
