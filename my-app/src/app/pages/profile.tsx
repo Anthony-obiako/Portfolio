@@ -47,7 +47,6 @@ const Profile = () => {
           </a>
           <Link
             href="#contact"
-            scroll={false}
             className="ml-4 px-2 py-2 sm:px-4 bg-slate-900 text-white rounded-lg shadow hover:bg-slate-700 transition-all"
           >
             Contact Me
