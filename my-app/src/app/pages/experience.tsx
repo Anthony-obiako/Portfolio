@@ -12,12 +12,12 @@ const Experience = () => {
           My Experience
         </h1>
       </div>
-      <div className="flex flex-col gap-4 md:gap-10">
-        <div className="p-8 rounded-xl shadow-inner shadow-teal-500 max-w-[1100px] h-full sm:min-w-[300px text-sm md:text-lg hover:animate-pulse cursor-default md:flex ">
+      <div className="flex flex-col gap-8 md:gap-16 mt-6 lg:mt-10">
+        <div className="p-8 rounded-xl shadow-inner shadow-teal-500 max-w-[1100px] h-full sm:min-w-[300px text-sm md:text-lg hover:shadow-lg hover:shadow-teal-500 cursor-default md:flex ">
           <p className="text-lg md:font-semibold md:mr-4 md:mt-3 md:min-w-[120px]">
             DEC 2024
           </p>
-          <div>
+          <div >
             <h1 className="text-xl md:text-4xl font-extrabold border-b-2 md:border-b-4 border-white mb-3 md:mb-4 py-3">
               IMMUREG
             </h1>
@@ -38,15 +38,12 @@ const Experience = () => {
               <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
                 React-JS
               </div>
-              <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
-                Material UI
-              </div>
             </div>
           </div>
         </div>
-        <div className="p-8 rounded-xl shadow-inner shadow-teal-500 max-w-[1100px] h-full sm:min-w-[300px text-sm md:text-lg hover:animate-pulse cursor-default md:flex ">
+        <div className="p-8 rounded-xl shadow-inner shadow-teal-500 max-w-[1100px] h-full sm:min-w-[300px text-sm md:text-lg hover:shadow-lg hover:shadow-teal-500 cursor-default md:flex ">
           <p className="text-lg md:font-semibold md:mr-4 md:mt-3 md:min-w-[120px]">
-            SEP 2024 - DEC 2024
+            JUL 2023 - DEC 2024
           </p>
           <div>
             <h1 className="text-xl md:text-4xl font-extrabold border-b-2 md:border-b-4 border-white mb-3 md:mb-4 py-3">
@@ -72,9 +69,9 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <div className="p-8 rounded-xl shadow-inner shadow-teal-500 max-w-[1100px] h-full sm:min-w-[300px text-sm md:text-lg hover:animate-pulse cursor-default md:flex ">
+        <div className="p-8 rounded-xl shadow-inner shadow-teal-500 max-w-[1100px] h-full sm:min-w-[300px text-sm md:text-lg hover:shadow-lg hover:shadow-teal-500 cursor-default md:flex ">
           <p className="text-lg md:font-semibold md:mr-4 md:mt-3 md:min-w-[120px]">
-            JUN 2023 - AUG 2024
+            JUN 2022 - SEP 2023
           </p>
           <div>
             <h1 className="text-xl md:text-4xl font-extrabold border-b-2 md:border-b-4 border-white mb-3 md:mb-4 py-3">
@@ -88,13 +85,13 @@ const Experience = () => {
             </p>
             <div className="flex flex-wrap text-nowrap gap-2 mt-3">
               <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
-                Internet Service
+                Html & CSS
               </div>
               <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
-                Networking
+                Javascript
               </div>
               <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
-                Customer Relations
+                Node
               </div>
             </div>
           </div>

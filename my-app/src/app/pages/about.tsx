@@ -10,7 +10,7 @@ const About = () => {
         <p className="text-lg md:text-xl lg:text-2xl text-teal-50">Get To Know More</p>
         <h1 className="text-3xl md:text-4xl lg:text-6xl text-teal-200 md:mt-4">About Me</h1>
       </div>
-      <div className="justify-items-center sm:flex lg:mt-10">
+      <div className="justify-items-center sm:flex mt-6 lg:mt-10">
         <div className="max-w-[300px] h-full sm:min-w-[300px] sm:w-full mb-4 justify-items-center sm:mx-4">
           <Image
             src={about}

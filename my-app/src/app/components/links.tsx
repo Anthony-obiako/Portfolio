@@ -48,7 +48,7 @@ const Contacts = ({ main }: Prop) => {
     return (
       <div
         id="contact-bar-footer"
-        className="h-fit w-72 mx-auto sm:m-0 flex justify-between items-center"
+        className="h-fit w-72 mx-auto sm:m-0 flex justify-around items-center"
       >
         <a
           href="mailto:obiakoanthonygozie@gmail.com"
@@ -56,9 +56,8 @@ const Contacts = ({ main }: Prop) => {
           aria-label="gmail link"
         >
           <BiLogoGmail
-            className="size-6"
-            style={{ color: "#737373", opacity: "50%" }}
-          />
+            className="size-9 lg:size-12 text-teal-200"
+          /> 
         </a>
         <a
           href="https://github.com/Anthony-obiako"
@@ -66,8 +65,7 @@ const Contacts = ({ main }: Prop) => {
           aria-label="github link"
         >
           <FaGithub
-            className="size-5"
-            style={{ color: "#737373", opacity: "50%" }}
+            className="size-8 lg:size-10 text-teal-200"
           />
         </a>
         <a
@@ -76,8 +74,7 @@ const Contacts = ({ main }: Prop) => {
           aria-label="linkedin link"
         >
           <FaLinkedin
-            className="size-5"
-            style={{ color: "#737373", opacity: "50%" }}
+            className="size-8 lg:size-10 text-teal-200"
           />
         </a>
         <a
@@ -86,8 +83,7 @@ const Contacts = ({ main }: Prop) => {
           aria-label="spotify link"
         >
           <FaSpotify
-            className="size-5"
-            style={{ color: "#737373", opacity: "50%" }}
+            className="size-8 lg:size-10 text-teal-200"
           />
         </a>
       </div>

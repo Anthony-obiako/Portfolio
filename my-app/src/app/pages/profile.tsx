@@ -3,7 +3,7 @@
 import Image from "next/image";
 import profile from "@/assets/profile.png";
 import Link from "next/link";
-import Contacts from "../components/contacts";
+import Contacts from "../components/links";
 
 const Profile = () => {
   return (
@@ -18,7 +18,9 @@ const Profile = () => {
           <div className="cursor-default">
             <h1 className="text-lg md:text-4xl text-orange-200">
               Hi there! I'm{" "}
-              <span className="text-gradient font-semibold text-2xl md:text-5xl">Anthony Obiako</span>
+              <span className="text-gradient font-semibold text-2xl md:text-5xl">
+                Anthony Obiako
+              </span>
             </h1>
             <p className="mt-4 md:text-4xl text-lg text-orange-50">
               I'm a passionate hardware and software engineer dedicated to
@@ -33,7 +35,6 @@ const Profile = () => {
               </span>
             </p>
           </div>
-          
         </div>
 
         <div className="mt-6 sm:mb-6">
