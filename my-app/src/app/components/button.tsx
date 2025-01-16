@@ -9,7 +9,7 @@ const ExternalButton = ({ href, children = "Click Here" }: ExternalButtonProps) 
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-2 py-1 sm:px-4 bg-slate-900 text-white rounded-lg shadow hover:bg-slate-700 transition-all md:text-lg font-medium"
+            className="px-2 py-1 sm:px-4 bg-slate-900 text-white rounded-lg shadow hover:bg-slate-700 active:bg-cyan-400 transition-all md:text-lg font-medium"
         >
             {children}
         </a>

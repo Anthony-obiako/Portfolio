@@ -17,16 +17,17 @@ const Experience = () => {
           <p className="text-lg md:font-semibold md:mr-4 md:mt-3 md:min-w-[120px]">
             DEC 2024
           </p>
-          <div >
+          <div>
             <h1 className="text-xl md:text-4xl font-extrabold border-b-2 md:border-b-4 border-white mb-3 md:mb-4 py-3">
               IMMUREG
             </h1>
             <p className="font-thin text-base md:text-xl">
-              I've collaborated closely with the frontend team to deliver
-              refined user interfaces, resolve UI bugs, and elevate the overall
-              user experience. Working alongside the lead senior developer, I
-              contributed to building pixel-perfect, high-performance UI
-              solutions that blend creativity with technical excellence.
+              At Immureg, I enhanced patient autonomy and data management by
+              developing a patient-friendly modal for generating Vaccination
+              Tracking Numbers (VTNs) and updating vaccination history. This
+              simplified process improved user experience, boosted patient
+              engagement, and ensured secure, accurate record tracking, aligning
+              with Immureg’s public health mission.
             </p>
             <div className="flex flex-wrap text-nowrap gap-2 mt-3">
               <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">
@@ -50,11 +51,11 @@ const Experience = () => {
               VETEK
             </h1>
             <p className="font-thin text-base md:text-xl">
-              As a frontend development intern, I actively contributed to
-              delivering visually appealing and high-performing UIs that met
-              customer satisfaction. I took ownership of integrating a seamless
-              self-service modal, ensuring both functionality and user
-              experience were top-notch.
+              I collaborated closely with the frontend team to deliver
+              refined user interfaces, resolve UI bugs, and elevate the overall
+              user experience. Working alongside the lead senior developer, I
+              contributed to building pixel-perfect, high-performance UI
+              solutions that blend creativity with technical excellence.
             </p>
             <div className="flex flex-wrap text-nowrap gap-2 mt-3">
               <div className="px-2 py-1 bg-orange-200 rounded-md font-medium text-neutral-950">

@@ -18,7 +18,7 @@ const Projects = () => {
         </h1>
       </div>
       <div className="mt-6 lg:mt-10">
-        <div className="px-3 py-5 sm:p-10 md border-2 border-solid border-gray-800 rounded-md bg-gray-950 justify-items-center max-w-[900px] mb-8 md:mb-20 transform rotate-[-5deg] transition-transform duration-300 hover:rotate-0">
+        <div className="px-3 py-5 sm:p-10 border-4 hover:border-solid border-dashed border-gray-800 rounded-md bg-gray-950 justify-items-center max-w-[900px] mb-8 md:mb-20 transform rotate-[-5deg] transition-transform duration-300 hover:rotate-0">
           <h1 className="text-center text-xl text-slate-100 mb-3 sm:mb-5 md:text-2xl md:font-medium">
             ACME Next-JS Admin Dashboard
           </h1>
@@ -37,7 +37,7 @@ const Projects = () => {
             </ExternalButton>
           </div>
         </div>
-        <div className="p-3 sm:p-10 border-2 border-solid border-gray-800 rounded-md bg-gray-950 justify-items-center max-w-[900px] md:mb-16 transform rotate-[-5deg] transition-transform duration-300 hover:rotate-0">
+        <div className="p-3 sm:p-10 border-4 hover:border-solid border-dashed border-gray-800 rounded-md bg-gray-950 justify-items-center max-w-[900px] md:mb-16 transform rotate-[-5deg] transition-transform duration-300 hover:rotate-0">
           <h1 className="text-center text-xl text-slate-100 mb-3 sm:mb-5 md:text-2xl md:font-medium">
             This Website!
           </h1>

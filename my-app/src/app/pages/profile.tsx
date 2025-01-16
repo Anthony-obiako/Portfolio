@@ -23,7 +23,7 @@ const Profile = () => {
               </span>
             </h1>
             <p className="mt-4 md:text-4xl text-lg text-orange-50">
-              I'm a passionate hardware and software engineer dedicated to
+              I'm a passionate <span className="font-semibold">Software Engineer</span>  dedicated to
               creating products that are both high-performing and visually
               stunning.
             </p>
@@ -39,16 +39,16 @@ const Profile = () => {
 
         <div className="mt-6 sm:mb-6">
           <a
-            href="/resume-example.pdf"
+            href="/anthony-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-2 py-2 sm:px-4 bg-slate-50 text-black rounded-lg shadow hover:bg-slate-500 transition-all"
+            className="px-2 py-2 sm:px-4 bg-slate-50 text-black rounded-lg shadow hover:bg-slate-500 active:bg-cyan-400 active:text-white transition-all"
           >
             View Resume
           </a>
           <Link
             href="#contact"
-            className="ml-4 px-2 py-2 sm:px-4 bg-slate-900 text-white rounded-lg shadow hover:bg-slate-700 transition-all"
+            className="ml-4 px-2 py-2 sm:px-4 bg-slate-900 text-white rounded-lg shadow hover:bg-slate-700 active:bg-cyan-400 transition-all"
           >
             Contact Me
           </Link>

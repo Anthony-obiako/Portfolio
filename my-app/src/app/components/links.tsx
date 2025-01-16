@@ -15,7 +15,7 @@ const Contacts = ({ main }: Prop) => {
         className="h-10 w-[180px] mx-auto mt-2 sm:mt-8 xs:mt-0 sm:m-0 flex justify-between items-center"
       >
         <a
-          href="mailto:obiakoanthonygozie@gmail.com"
+          href="mailto:anthonyobiakoc@gmail.com"
           target="_blank"
           aria-label="gmail link"
         >
@@ -51,7 +51,7 @@ const Contacts = ({ main }: Prop) => {
         className="h-fit w-72 mx-auto sm:m-0 flex justify-around items-center"
       >
         <a
-          href="mailto:obiakoanthonygozie@gmail.com"
+          href="mailto:anthonyobiakoc@gmail.com"
           target="_blank"
           aria-label="gmail link"
         >
