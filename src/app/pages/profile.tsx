@@ -8,7 +8,7 @@ import Contacts from "../components/links";
 
 const Profile = () => {
   return (
-    <main className="w-full h-full min-h-[400px] sm:min-h-[600px] font-light border border-neutral-300 dark:border-neutral-900 shadow-custom dark:shadow-custom-dark rounded-2xl flex flex-col justify-center items-center bg-white dark:bg-black p-8">
+    <main className="w-full h-full min-h-[400px] sm:min-h-[600px] font-light border border-neutral-300 dark:border-neutral-900 shadow-custom dark:shadow-custom-dark rounded-2xl flex flex-col justify-center items-center dark:bg-black p-8">
       <div className="text-center justify-items-center lg:px-10">
         <div className=" sm:flex justify-items-center">
           <Image
