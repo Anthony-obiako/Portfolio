@@ -42,10 +42,10 @@ const About = () => {
             </div>
           </div>
           <p className="text-center mt-3 text-teal-50 leading-relaxed italic sm:mx-4 md:mx-6 md:text-2xl lg:mx-10 lg:text-3xl cursor-default ">
-            I'm an <span className="font-bold">Electronics and Computer Engineering</span> graduate from
+            I&#39;m an <span className="font-bold">Electronics and Computer Engineering</span> graduate from
             Nnamdi Azikiwe University, Awka. With over two years of frontend
             development experience, I enjoy turning ideas into sleek, functional
-            web experiences. Beyond code, I'm all about clear communication,
+            web experiences. Beyond code, I&#39;m all about clear communication,
             creative problem-solving, and collaborating with awesome teams to
             bring projects to life!
           </p>

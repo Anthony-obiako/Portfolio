@@ -18,13 +18,13 @@ const Profile = () => {
           />
           <div className="cursor-default">
             <h1 className="text-lg md:text-4xl text-orange-200">
-              Hi there! I'm{" "}
+              Hi there! I&#39;m{" "}
               <span className="text-gradient font-semibold text-2xl md:text-5xl">
                 Anthony Obiako
               </span>
             </h1>
             <p className="mt-4 md:text-4xl text-lg text-orange-50">
-              I'm a passionate <span className="font-semibold">Software Engineer</span>  dedicated to
+              I&#39;m a passionate <span className="font-semibold">Software Engineer</span>  dedicated to
               creating products that are both high-performing and visually
               stunning.
             </p>
