@@ -14,7 +14,7 @@ const Profile = () => {
           <Image
             src={profile}
             alt="Anthony Obiako"
-            className="rounded-full border-2 border-black dark:border-white bg-white mb-4 w-40 saturate-150 h-60 object-cover mx-5"
+            className="rounded-md border-2 border-black dark:border-white bg-white mb-4 w-40 saturate-150 h-60 object-cover mx-5"
           />
           <div className="cursor-default">
             <h1 className="text-lg md:text-4xl text-orange-200">
