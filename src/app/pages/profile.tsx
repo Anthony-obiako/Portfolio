@@ -1,8 +1,5 @@
 "use client";
 
-
-import Image from "next/image";
-import profile from "@/assets/profile.png";
 import Link from "next/link";
 import Contacts from "../components/links";
 
@@ -11,11 +8,6 @@ const Profile = () => {
     <main className="w-full h-full min-h-[400px] sm:min-h-[600px] font-light border-b  border-neutral-900 shadow-custom dark:shadow-custom-dark flex flex-col justify-center items-center dark:bg-black p-8">
       <div className="text-center justify-items-center lg:px-10">
         <div className=" sm:flex justify-items-center">
-          <Image
-            src={profile}
-            alt="Anthony Obiako"
-            className="rounded-md border-2 border-black dark:border-white bg-white mb-4 w-40 saturate-150 h-60 object-cover mx-5"
-          />
           <div className="cursor-default">
             <h1 className="text-lg md:text-4xl text-orange-200">
               Hi there! I&#39;m{" "}
