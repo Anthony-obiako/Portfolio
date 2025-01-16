@@ -1,5 +1,6 @@
 "use client";
 
+
 import Image from "next/image";
 import profile from "@/assets/profile.png";
 import Link from "next/link";
