@@ -2,6 +2,7 @@ import Image from "next/image";
 import acme from "@/assets/acme-next.png";
 import ExternalButton from "@/app/components/button";
 import portfolio from "@/assets/portfolio.png";
+import immureg from "@/assets/immureg-pic.png";
 
 const Projects = () => {
   return (
@@ -18,6 +19,26 @@ const Projects = () => {
         </h1>
       </div>
       <div className="mt-6 lg:mt-10">
+        <div className="px-3 py-5 sm:p-10 border-4 hover:border-solid border-dashed border-gray-800 rounded-md bg-gray-950 justify-items-center max-w-[900px] mb-8 md:mb-20 transform rotate-[-5deg] transition-transform duration-300 hover:rotate-0">
+          <h1 className="text-center text-xl text-slate-100 mb-3 sm:mb-5 md:text-2xl md:font-medium">
+            Health Care Service Modal
+          </h1>
+          <Image
+            src={immureg}
+            alt="acme dashboard"
+            className="rounded-md mb-3"
+          />
+          <p className="mb-3 text-lg text-slate-100 md:text-xl">
+            A self-service modal designed to help patients conveniently register
+            and update their immunization records, promoting accessibility,
+            boosting patient engagement, and simplifying immunization
+            management.
+          </p>
+          <div className="w-full px-3 justify-around flex sm:max-w-[550px]">
+            <ExternalButton href="">Live Preview</ExternalButton>
+            <ExternalButton href="">Code</ExternalButton>
+          </div>
+        </div>
         <div className="px-3 py-5 sm:p-10 border-4 hover:border-solid border-dashed border-gray-800 rounded-md bg-gray-950 justify-items-center max-w-[900px] mb-8 md:mb-20 transform rotate-[-5deg] transition-transform duration-300 hover:rotate-0">
           <h1 className="text-center text-xl text-slate-100 mb-3 sm:mb-5 md:text-2xl md:font-medium">
             ACME Next-JS Admin Dashboard
